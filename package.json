@@ -1,0 +1,22 @@
+{
+  "name": "gonzalopalacios",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnzlplcs/gonzalopalacios.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Gonzalo Palacios <hello@gonzalopalacios.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnzlplcs/gonzalopalacios/issues"
+  },
+  "homepage": "https://github.com/gnzlplcs/gonzalopalacios#readme"
+}
