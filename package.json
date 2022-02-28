@@ -18,9 +18,5 @@
   "bugs": {
     "url": "https://github.com/gnzlplcs/gonzalopalacios/issues"
   },
-  "homepage": "https://github.com/gnzlplcs/gonzalopalacios#readme",
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  }
+  "homepage": "https://github.com/gnzlplcs/gonzalopalacios#readme"
 }
