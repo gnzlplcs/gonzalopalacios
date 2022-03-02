@@ -1,11 +1,13 @@
 {
   "name": "gonzalopalacios",
+  "homepage": "https:/gonzalopalacios.com",
   "version": "1.0.0",
   "description": "My personal website",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --mode development",
+    "dev": "webpack serve --config webpack.config.dev.js",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -20,7 +22,6 @@
   "bugs": {
     "url": "https://github.com/gnzlplcs/gonzalopalacios/issues"
   },
-  "homepage": "https://github.com/gnzlplcs/gonzalopalacios#readme",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

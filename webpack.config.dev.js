@@ -7,11 +7,13 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: "/"
   },
   resolve: {
     extensions: ['.js', '.jsx']
   },
   mode: "development",
+  devtool: 'source-map',
   module: {
     rules: [
       {
@@ -47,6 +49,7 @@ module.exports = {
     })
   ],
   devServer: {
+    historyApiFallback: true,
     static: {
       directory: path.join(__dirname, 'dist'),
     },
